@@ -51,4 +51,40 @@ Os STLs prontos são para tubo de 50 mm e escada de 12 degraus. Para outro corri
 
 Para instalação definitiva ao ar livre, use ASA: o PETG amolece no sol forte.
 
-**Gabarito a laser:** MDF ou acrílico de 3 mm. No `gabarito_laser.svg`, vermelho é corte e preto é gravação. A pasta `laser/` traz os mesmos traços
+**Gabarito a laser:** MDF ou acrílico de 3 mm. No `gabarito_laser.svg`, vermelho é corte e preto é gravação. A pasta `laser/` traz os mesmos traços separados, em DXF e SVG.
+
+## Fixação reutilizável
+
+Cada peça tem dois canais de abraçadeira, que impedem a capa de girar quando alguém apoia o peso. Recomendamos a abraçadeira reutilizável impressa **"Improved Reusable Zip Ties"**, de Doug Joseph (design8studio), na versão de 252 mm:
+https://www.printables.com/model/935485-improved-new-reusable-zip-ties-4-lengths-to-choose (licença CC BY-NC 4.0). Baixe o arquivo na página do autor: ele fica fora deste repositório.
+
+A catraca abre com a mão, então você retira, troca e reinstala as peças sem gerar lixo. O canal também aceita abraçadeira de nylon comum de até 8,5 mm.
+
+## Arquivos
+
+```
+cad/
+  kit_pega_tatil.scad      kit paramétrico (terminal, plaquinha e pega de meio)
+  corrimao_original.scad   CAD do corrimão da Praça Piemonte, com e sem o kit
+  gabarito_diametro.scad   gabarito de diâmetro (gera o corte a laser e a versão 3D)
+  teste_encaixe.scad       fatia de teste do encaixe em "C"
+stl/                       peças prontas para imprimir (tubo de 50 mm, 12 degraus)
+laser/                     gabarito em SVG e DXF
+imagens/                   renders do original e do redesign
+```
+
+`corrimao_original.stl` serve só para visualizar o corrimão: o tubo tem quase 5 m.
+
+## Limites
+
+- O kit só serve para corrimão redondo.
+- A NBR 9050 pede corrimão de 30 a 45 mm de diâmetro. Em tubos acima de uns 38 mm, a capa passa desse limite, e o arquivo avisa. O kit melhora o atrito e a sinalização; o diâmetro do tubo continua o mesmo.
+- A instalação em espaço público depende de autorização do órgão responsável.
+
+## Equipe
+
+Caio Freitas - RM553190 | Caio Hideki - RM553630 | Jorge Booz - RM552700 | Mateus Tibão - RM553267 | Lana Andrade - RM552596
+
+## Licença
+
+[CC BY 4.0](LICENSE): você pode usar, adaptar e fabricar o kit para qualquer fim, até comercial, desde que dê crédito.
