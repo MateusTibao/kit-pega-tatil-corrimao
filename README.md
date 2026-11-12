@@ -83,7 +83,7 @@ imagens/                   renders do original e do redesign
 
 ## Equipe
 
-Caio Freitas - RM553190 | Caio Hideki - RM553630 | Jorge Booz - RM552700 | Mateus Tibão - RM553267 | Lana Andrade - RM552596
+Caio Freitas - RM553190 | Caio Hideki - RM553630 | Jorge Booz - RM552700 | Lana Andrade - RM552596 | Mateus Tibão - RM553267
 
 ## Licença
 
