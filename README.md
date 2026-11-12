@@ -6,8 +6,8 @@ Capas impressas em 3D que encaixam em qualquer corrimão redondo, sem obra e sem
 
 Projeto da disciplina **Project-Based Maker Lab**, FIAP Global Solution 2026.2, "CitizenTech: Cidade remodelada".
 
-- **MakerWorld (kit, com Customizer):** [link do kit]
-- **MakerWorld (gabarito, corte a laser):** [link do gabarito]
+- **MakerWorld (kit, com Customizer):** https://makerworld.com/en/models/3593710-parametric-handrail-tactile-grip-kit 
+- **MakerWorld (gabarito, corte a laser):** https://makerworld.com/en/models/3593670-handrail-diameter-gauge 
 
 ## O problema
 
@@ -83,7 +83,7 @@ imagens/                   renders do original e do redesign
 
 ## Equipe
 
-[Nome completo e RM de cada integrante]
+Caio Freitas - RM553190 | Caio Hideki - RM553630 | Jorge Booz - RM552700 | Mateus Tibão - RM553267 | Lana Andrade - RM552596
 
 ## Licença
 
