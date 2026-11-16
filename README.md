@@ -28,6 +28,7 @@ O corrimão central da escada maior da Praça Piemonte, no Cipava, em Osasco (SP
 | **Pega de meio** | Anéis de textura para dar atrito entre os postes. Repita quantas precisar. | `stl/pega_meio.stl` |
 | **Gabarito de diâmetro** | Placa com um "V" e escala de 20 a 60 mm, para medir o tubo antes de imprimir. | `laser/gabarito_laser.svg` ou `stl/gabarito_diametro_3d.stl` |
 | **Fatias de teste** | Abraço de 200°, 220° e 240°. Imprima antes do kit e veja qual encaixa melhor no seu tubo. | `stl/teste_encaixe_*.stl` |
+| **Placa pronta (Bambu Studio)** | Terminal, plaquinha e pega de meio numa placa só, já configurados para a Bambu Lab A1 em PETG. | `stl/kit_pega_tatil_A1_PETG.3mf` |
 
 Os STLs prontos são para tubo de 50 mm e escada de 12 degraus. Para outro corrimão, use o Customizer.
 
@@ -51,6 +52,8 @@ Os STLs prontos são para tubo de 50 mm e escada de 12 degraus. Para outro corri
 
 Para instalação definitiva ao ar livre, use ASA: o PETG amolece no sol forte.
 
+**Placa pronta:** abra `stl/kit_pega_tatil_A1_PETG.3mf` no Bambu Studio, ou use o perfil de impressão da página do kit no MakerWorld. A placa já vem com camada de 0,2 mm, 0,12 mm na plaquinha e suporte em árvore só embaixo do trilho do terminal. As abraçadeiras ficam de fora: baixe o arquivo na página do autor.
+
 **Gabarito a laser:** MDF ou acrílico de 3 mm. No `gabarito_laser.svg`, vermelho é corte e preto é gravação. A pasta `laser/` traz os mesmos traços separados, em DXF e SVG.
 
 ## Fixação reutilizável
@@ -69,6 +72,7 @@ cad/
   gabarito_diametro.scad   gabarito de diâmetro (gera o corte a laser e a versão 3D)
   teste_encaixe.scad       fatia de teste do encaixe em "C"
 stl/                       peças prontas para imprimir (tubo de 50 mm, 12 degraus)
+                           e a placa pronta do Bambu Studio (3MF)
 laser/                     gabarito em SVG e DXF
 imagens/                   renders do original e do redesign
 ```
